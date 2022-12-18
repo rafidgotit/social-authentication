@@ -1,11 +1,37 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>Rapplis.SocialAuthentication</RootNamespace>
+    <PackageId>Rapplis.SocialAuthentication</PackageId>
+    <Authors>Rafid Hossain</Authors>
+    <Company>Rapplis</Company>
+    <Product>Rapplis Social Authentication Library</Product>
+    <Description>A library that does social authentication of three different providers - google, apple &amp; facebook. This will help developers to setup social authentication system with ease.</Description>
+    <Copyright>2022</Copyright>
+    <PackageProjectUrl>https://github.com/rafid08/social-authentication</PackageProjectUrl>
+    <PackageIcon>phone.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/rafid08/social-authentication</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>authentication,social,google,apple,facebook,login,sign,signin,signup,auth, instant</PackageTags>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="D:\phone.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="NETStandard.Library" Version="2.0.3" />
