@@ -24,7 +24,7 @@ public class FacebookAuth : ISocialAuth
 
         
         var response = await httpClient.GetAsync(url);
-        if (response.StatusCode != HttpStatusCode.OK) throw new Exception("Google API returned an error");
+        if (response.StatusCode != HttpStatusCode.OK) throw new Exception("Facebook API returned an error");
             
         var content = await response.Content.ReadAsStringAsync();
         var profile = JsonConvert.DeserializeObject<FacebookProfile>(content);

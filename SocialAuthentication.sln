@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialAuthentication", "SocialAuthentication\SocialAuthentication.csproj", "{B417991B-7CF4-43DD-9CD9-19B8D808B36B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialAuthentication", "SocialAuthentication\SocialAuthentication.csproj", "{B417991B-7CF4-43DD-9CD9-19B8D808B36B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{868BA9E7-CA09-49D4-A66B-9A06BAEB4407}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B417991B-7CF4-43DD-9CD9-19B8D808B36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B417991B-7CF4-43DD-9CD9-19B8D808B36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B417991B-7CF4-43DD-9CD9-19B8D808B36B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868BA9E7-CA09-49D4-A66B-9A06BAEB4407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868BA9E7-CA09-49D4-A66B-9A06BAEB4407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868BA9E7-CA09-49D4-A66B-9A06BAEB4407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868BA9E7-CA09-49D4-A66B-9A06BAEB4407}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
