@@ -9,10 +9,9 @@
     <Authors>Rafid Hossain</Authors>
     <Company>Rapplis</Company>
     <Product>Rapplis Social Authentication Library</Product>
-    <Description>A library that does social authentication of three different providers - google, apple &amp; facebook. This will help developers to setup social authentication system with ease.</Description>
+    <Description>SocialAuthentication .NET library verifies the social login access token in the backend &amp; return necessary infomations to identify the user.</Description>
     <Copyright>2022</Copyright>
     <PackageProjectUrl>https://github.com/rafid08/social-authentication</PackageProjectUrl>
-    <PackageIcon>phone.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/rafid08/social-authentication</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -20,14 +19,11 @@
     <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Title>Social Authentication</Title>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="D:\phone.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
