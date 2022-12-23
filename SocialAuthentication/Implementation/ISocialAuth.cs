@@ -20,6 +20,6 @@ public class SocialAuthBuilder
             { SocialAuthProvider.Facebook, new FacebookAuth(data) },
             { SocialAuthProvider.Apple, new AppleAuth(data) },
         };
-        return services[data.Provider];
+        return services[data.Provider.ToLower()];
     }
 }

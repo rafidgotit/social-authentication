@@ -19,8 +19,6 @@ public class AppleAuth : ISocialAuth
         var claims = await VerifyAppleIdToken(token, _data.AppleClientId);
         return new SocialUser
         {
-            FirstName = _data.FirstName,
-            LastName = _data.LastName,
             Provider = SocialAuthProvider.Apple,
             Email = claims.FirstOrDefault(x => x.Type == "email")?.Value,
             EmailVerified = bool.Parse(claims.FirstOrDefault(x => x.Type == "email_verified")?.Value?? "false"),

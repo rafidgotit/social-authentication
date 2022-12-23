@@ -61,9 +61,7 @@ namespace UnitTest
             {
                 Token = "",
                 Provider = SocialAuthProvider.Apple,
-                FirstName = "John",
-                LastName = "Doe",
-                AppleClientId = "app.sugary.service",
+                AppleClientId = "your_apple_client_id",
             };
             SocialUser? socialUser = null;
             try
