@@ -29,6 +29,7 @@ There is some setup to be done in the frontend part to make this library work sm
 
 - ### Google
   - Setup OAuth client according to [Google Documentation](https://support.google.com/cloud/answer/6158849?hl=en)
+  - Make sure to enable [People API](https://developers.google.com/people) in cloud console.
   - For android, make sure your app's SHA-1 is setup in cloud console.
   - While signin in to google, make sure to use the following scopes:<br/>
     `https://www.googleapis.com/auth/userinfo.profile`<br/>
